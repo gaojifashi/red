@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Feedback" >
+        <SwitchPreference
+        	android:key="@string/return_home_key"
+        	android:title="@string/return_home_title"
+        	android:summary="@string/return_home_summ"
+        	android:defaultValue="true" />
+        <SwitchPreference
+        	android:key="@string/flyme_key"
+        	android:title="@string/flyme_title"
+        	android:summary="@string/flyme_summ"
+        	android:dependency="@string/return_home_key"
+        	android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="WakeUp Settings">
+        <SwitchPreference 
+        	android:key="@string/wake_up_key"
+        	android:title="@string/wake_up_title"
+        	android:summary="@string/wake_up_summ"
+        	android:defaultValue="false" />
+		<Preference 
+            android:title="Screen Lock"
+            android:summary="Jump to screen lock settings" >
+            <intent android:action="android.settings.SECURITY_SETTINGS" />
+        </Preference>
+    </PreferenceCategory> 
+    <PreferenceCategory
+        android:title="Accessibility" >
+        <Preference
+        	android:title="@string/accessibility_title"
+        	android:summary="@string/accessibility_summ">
+        	<intent android:action="android.settings.ACCESSIBILITY_SETTINGS" />
+    	</Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

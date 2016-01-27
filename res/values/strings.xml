@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">抢红包</string>
+    <string name="action_settings">Settings</string>
+    <string name="wechat_package_name">com.tencent.mm</string>
+    <string name="wechat_prefix">[微信红包]</string>
+	<string name="accessibility_description">抢红包助手：监听通知状态，遍历当前界面</string>
+	<string name="return_home_key">rhk</string>
+	<string name="return_home_title">Return Home</string>
+	<string name="return_home_summ">return home after opening red packet</string>
+	
+	<string name="flyme_key">fly</string>
+	<string name="flyme_title">Flyme \'Home\'</string>
+	<string name="flyme_summ">If your phone runs on Flyme 5 or later and \'Return Home\' is switched on, enable this.</string>
+	
+	<string name="accessibility_title">Rrant Permission</string>
+	<string name="accessibility_summ">Jump to settings. You should grant accessibility permission to this app.</string>
+	
+	<string name="wake_up_key">wp</string>
+	<string name="wake_up_title">Auto WakeUp</string>
+	<string name="wake_up_summ">Screen lock should be set \'NONE\' before enable this. If not, it will waste battery.</string>
+	
+	
+</resources>
